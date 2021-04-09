@@ -1,7 +1,7 @@
 .brands {
   color: #313437;
   background-color: #fff;
-  padding: 20px 0;
+  padding: 25px 0;
 }
 
 .brands a {
@@ -18,8 +18,9 @@
 
 .brands a img {
   display: inline-block;
-  margin: 20px 25px;
   vertical-align: middle;
+  margin: 10px 15px;
+  width: 145px;
 }
 
 #home-cta .bottom-cta {

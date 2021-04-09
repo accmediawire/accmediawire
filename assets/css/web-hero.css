@@ -83,6 +83,7 @@ web-hero .div-2 {
 @media (min-width: 768px) {
   #web-hero h1 {
     font-size: 62px;
+    font-weight: 600;
   }
 }
 
@@ -114,7 +115,7 @@ web-hero .div-2 {
 }
 
 #web-hero .overlay {
-  background-color: rgba(0,0,0,0.4);
+  background-color: rgba(0,0,0,0.5);
 }
 
 #web-hero .div-2 {
@@ -126,13 +127,13 @@ web-hero .div-2 {
 }
 
 #partner-hero {
-  margin: 5px;
+  margin: 0 5px;
+  background-image: url("../../assets/img/background-1747777.jpg");
 }
 
 @media (min-width: 992px) {
   #partner-hero {
-    margin: 0 5px;
-    padding: 50px 0;
+    margin: 30px 5px;
   }
 }
 
@@ -158,9 +159,8 @@ web-hero .div-2 {
   color: #333;
   font-weight: 500;
   font-family: 'Poppins';
-  padding: 10px;
-  padding-top: 20px;
-  padding-bottom: 50px;
+  padding: 20px;
+  padding-top: 50px;
 }
 
 @media (min-width: 768px) {
@@ -197,5 +197,18 @@ web-hero .div-2 {
 }
 
 #partner-hero .overlay {
+  background-color: rgba(255,255,255,0.75);
+}
+
+#partner-hero .overlay {
+  padding: 5px 0;
+  padding-top: 0;
+}
+
+@media (min-width: 768px) {
+  #partner-hero .overlay {
+    padding: 50px 0;
+    padding-top: 0;
+  }
 }
 

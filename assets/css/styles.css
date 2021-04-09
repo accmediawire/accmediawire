@@ -325,3 +325,13 @@ a:hover {
   margin: 0 auto;
 }
 
+/* ad-partners */
+
+#ad-partners {
+  text-align: center;
+}
+
+#ad-partners img {
+  margin: 15px 25px;
+}
+
