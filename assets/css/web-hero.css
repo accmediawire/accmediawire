@@ -75,15 +75,26 @@ web-hero .div-2 {
 }
 
 #web-hero h1 {
-  font-size: 34px;
+  font-size: 42px;
   margin-bottom: 25px;
   font-weight: 600;
+  text-transform: uppercase;
 }
 
 @media (min-width: 768px) {
   #web-hero h1 {
-    font-size: 62px;
+    font-size: 58px;
     font-weight: 600;
+  }
+}
+
+#web-hero .feature-btn {
+  margin-bottom: 5px;
+}
+
+@media (min-width: 768px) {
+  #web-hero .feature-btn {
+    margin-right: 5px;
   }
 }
 
