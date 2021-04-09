@@ -1,0 +1,146 @@
+.features-boxed {
+  color: #313437;
+  background-color: #ffffff;
+  padding: 50px 0;
+}
+
+.features-boxed p {
+  color: #7d8285;
+}
+
+.features-boxed h2 {
+  font-weight: bold;
+  margin-bottom: 40px;
+  padding-top: 40px;
+  color: inherit;
+}
+
+@media (max-width:767px) {
+  .features-boxed h2 {
+    margin-bottom: 25px;
+    padding-top: 25px;
+    font-size: 24px;
+  }
+}
+
+.features-boxed .intro {
+  font-size: 16px;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.features-boxed .intro p {
+  margin-bottom: 0;
+}
+
+.features-boxed .features {
+  padding: 20px 0;
+}
+
+.features-boxed .item {
+  text-align: center;
+}
+
+.features-boxed .item .box {
+  text-align: center;
+  padding: 10px;
+  background-color: #fff;
+  margin-bottom: 30px;
+  font-family: 'Poppins';
+}
+
+.features-boxed .item .icon {
+  font-size: 80px;
+  color: rgba(251,88,75,0.85);
+  margin-top: 20px;
+  margin-bottom: 35px;
+}
+
+.features-boxed .item .name {
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 8px;
+  margin-top: 0;
+  color: inherit;
+}
+
+.features-boxed .item .description {
+  font-size: 15px;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
+.learn-more {
+  color: rgba(251,88,75,0.85);
+}
+
+.btn.btn-primary.feature-btn {
+  border: 0px solid;
+  font-family: Poppins, sans-serif;
+  font-weight: 600;
+  width: 270px;
+  height: 42px;
+  background-color: rgba(251,88,75,0.85);
+  margin-top: 10px;
+}
+
+#features-grid {
+  font-family: 'Poppins';
+  padding: 50px 0;
+}
+
+#features-grid .left {
+}
+
+#features-grid .name {
+  font-size: 42px;
+  padding-bottom: 16px;
+}
+
+@media (min-width: 992px) {
+  #features-grid .name {
+    font-size: 62px;
+    font-weight: 600;
+  }
+}
+
+#features-plan {
+  padding: 80px 0;
+}
+
+#features-plan .item .box {
+  text-align: center;
+  padding: 10px 20px;
+  background-color: #fff;
+  margin-bottom: 30px;
+  font-family: 'Poppins';
+}
+
+#features-plan .item .icon {
+  font-size: 80px;
+  color: rgba(251,88,75,0.85);
+  margin-top: 20px;
+  margin-bottom: 35px;
+}
+
+#features-plan .item .name {
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 8px;
+  margin-top: 0;
+  color: inherit;
+  text-transform: uppercase;
+}
+
+#features-plan .item .description {
+  font-size: 15px;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
+/* features-mid */
+
+#features-mid {
+  padding: 50px 0;
+}
+
