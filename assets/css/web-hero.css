@@ -38,8 +38,8 @@
   font-weight: 500;
   font-family: 'Poppins';
   padding: 10px;
-  padding-top: 30px;
-  padding-bottom: 20px;
+  padding-top: 15px;
+  padding-bottom: 10px;
 }
 
 @media (min-width: 768px) {
