@@ -350,3 +350,11 @@ a {
   font-size: 40px;
 }
 
+.btn-primary:hover {
+  color: #fff;
+  background-color: rgba(251,88,75,0.85);
+  border-color: #0062cc;
+  font-size: 17px;
+  font-weight: 600;
+}
+
