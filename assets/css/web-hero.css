@@ -36,7 +36,7 @@
   margin: 0 auto;
   color: #fff;
   font-family: 'Poppins';
-  padding: 20px 10px;
+  padding: 25px 10px;
 }
 
 @media (min-width: 768px) {
@@ -94,28 +94,16 @@ web-hero .div-2 {
 #web-hero .col.with-borders {
   border: 1px solid rgba(255,255,255,0.65);
   border-top: 0;
-  border-bottom: 0;
-}
-
-#web-hero .col.with-borders-2 {
-  border: 1px solid rgba(255,255,255,0.65);
-  border-top: 0;
-  border-bottom: 0;
-  border-left: 0;
   border-right: 0;
+  border-left: 0;
 }
 
 @media (min-width: 768px) {
-  #web-hero .col.with-borders-2 {
-    border-top: 0;
+  #web-hero .col.with-borders {
+    border: 1px solid rgba(255,255,255,0.65);
     border-bottom: 0;
-    border-left: 0;
+    border-top: 0;
   }
-}
-
-#web-hero .col.with-borders {
-  border: 1px solid rgba(255,255,255,0.65);
-  border-bottom: 0;
 }
 
 #web-hero .overlay {
