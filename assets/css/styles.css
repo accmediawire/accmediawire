@@ -47,7 +47,7 @@
 }
 
 #home-1 h2 {
-  font-size: 40px;
+  font-size: 30px;
   font-weight: 500;
   margin-bottom: 25px;
   padding: 0px;
@@ -204,7 +204,7 @@ iframe {
 
 #home-2 h2 {
   font-size: 36px;
-  font-weight: 400;
+  font-weight: 500;
   margin-bottom: 35px;
   padding: 0px;
   color: rgba(51,51,51,0.95);
@@ -214,7 +214,6 @@ iframe {
   #home-2 h2 {
     font-size: 62px;
     line-height: 90px;
-    font-weight: 400;
   }
 }
 
@@ -240,7 +239,7 @@ iframe {
 
 #home-cta {
   padding-top: 50px;
-  padding-bottom: 100px;
+  padding-bottom: 70px;
 }
 
 .btn.btn-primary.text-white {
@@ -250,8 +249,9 @@ iframe {
 }
 
 #home-cta .h2 {
-  font-size: 36px;
-  font-weight: 400;
+  font-size: 24px;
+  font-weight: 500;
+  text-transform: uppercase;
   margin: 25px 0;
   padding: 0px;
   color: rgba(51,51,51,0.95);
@@ -261,6 +261,7 @@ iframe {
   #home-cta .h2 {
     font-size: 52px;
     line-height: 90px;
+    font-weight: 400;
   }
 }
 

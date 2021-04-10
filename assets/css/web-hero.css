@@ -164,9 +164,11 @@ web-hero .div-2 {
 }
 
 #partner-hero h2 {
-  font-size: 32px;
+  font-size: 30px;
   margin-bottom: 25px;
   font-weight: 600;
+  text-transform: uppercase;
+  line-height: initial;
 }
 
 @media (min-width: 768px) {
