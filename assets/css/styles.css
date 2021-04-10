@@ -276,8 +276,10 @@ iframe {
 }
 
 a:hover {
-  color: #0056b3;
+  color: rgba(251,88,75,0.85);
   text-decoration: inherit;
+  font-weight: 600;
+  font-size: 16px;
 }
 
 #nav {
@@ -329,5 +331,32 @@ a:hover {
 
 #ad-partners img {
   margin: 12px 28px;
+}
+
+/* mid-nav */
+
+#mid-nav {
+}
+
+#mid-nav .nav-item {
+  font-family: 'Poppins';
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+a {
+  color: #707070;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: #fb584b;
+}
+
+#mid-nav .icon {
+  font-size: 40px;
 }
 
