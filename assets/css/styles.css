@@ -364,3 +364,15 @@ a {
   font-weight: 500;
 }
 
+#nav-mid .nav-item {
+  width: 165px;
+  text-align: left;
+}
+
+@media (min-width: 768px) {
+  #nav-mid .nav-item {
+    width: 165px;
+    text-align: center;
+  }
+}
+
