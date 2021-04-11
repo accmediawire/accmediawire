@@ -29,62 +29,9 @@
   font-family: 'Poppins';
 }
 
-#home-1 {
-  text-align: center;
-  font-family: Poppins, sans-serif;
-}
-
-@media (min-width: 768px) {
-  #home-1 {
-    font-family: 'Poppins';
-    text-align: left;
-  }
-}
-
-#home-1 .jumbotron {
-  background-color: rgb(255,255,255);
-  padding: 0;
-}
-
-#home-1 h2 {
-  font-size: 28px;
-  font-weight: 500;
-  margin-bottom: 25px;
-  padding: 0px;
-  color: rgba(51,51,51,0.95);
-}
-
-@media (min-width: 768px) {
-  #home-1 h2 {
-    font-size: 62px;
-    line-height: 90px;
-  }
-}
-
-.form2 {
-  max-width: 100%;
-}
-
-@media (min-width: 768px) {
-  .form2 {
-    max-width: 300px;
-  }
-}
-
-.link-p {
-  margin-top: 30px;
-  margin-bottom: 5px;
-  font-size: 12px;
-}
-
-#home-1 a:hover {
+.a:hover {
   color: rgba(251,88,75,0.85);
   text-decoration: blink;
-}
-
-#home-1 .link {
-  font-size: 30px;
-  font-weight: bold;
 }
 
 #video-and-stats {
@@ -186,43 +133,8 @@ iframe {
   }
 }
 
-#home-2 {
-  font-family: 'Poppins';
-  padding-bottom: 25px;
-}
-
-#home-2 h2 {
-  font-size: 36px;
-  font-weight: 500;
-  margin-bottom: 35px;
-  padding: 0px;
-  color: rgba(51,51,51,0.95);
-}
-
-@media (min-width: 768px) {
-  #home-2 h2 {
-    font-size: 62px;
-    line-height: 90px;
-  }
-}
-
-.card {
-  text-align: center;
-  border-color: rgba(51,51,51,0);
-  color: #fff;
-  padding: 10px 0;
-  font-family: 'Poppins';
-  margin-bottom: 5px;
-}
-
 #home-2 a {
   color: #fff;
-}
-
-.btn.btn-outline-primary.btn-block.text-white {
-  border: 2px solid rgba(255,255,255,0.5);
-  text-transform: uppercase;
-  font-weight: 500;
 }
 
 #home-cta {
@@ -344,9 +256,9 @@ a {
 
 .btn-primary:hover {
   color: #fff;
-  background-color: rgba(251,88,75,0.85);
-  border-color: #0062cc;
-  font-size: 17px;
+  background-color: rgba(0,0,0,0.9);
+  border-color: #0c0c0c;
+  font-size: 16px;
   font-weight: 600;
 }
 
@@ -408,7 +320,7 @@ a {
 @media (min-width: 992px) {
   #hero-left .p-one {
     padding-right: 60px;
-    border: 1px solid rgba(179,179,179,0.15);
+    border: 1px solid rgba(179,179,179,0.4);
     border-bottom: 0;
     border-top: 0;
     border-left: 0;
@@ -417,11 +329,44 @@ a {
 
 @media (min-width: 992px) {
   #hero-left h1 {
+    font-size: 56px;
+  }
+}
+
+#hero-left .partner-heading {
+  margin-bottom: 20px;
+  font-size: 30px;
+  font-weight: 600;
+  text-transform: none;
+  font-family: Poppins, sans-serif;
+}
+
+@media (min-width: 992px) {
+  #hero-left .partner-heading {
     margin-bottom: 30px;
     font-family: Poppins, sans-serif;
-    font-size: 56px;
-    font-weight: 600;
+    font-size: 52px;
+    font-weight: 500;
   }
+}
+
+#hero-left .btn-top {
+  background-color: rgba(14,160,255,0);
+  border: 1.5px solid rgba(43,43,43,0.7);
+  font-size: 13px;
+  padding: 10px 32px;
+  border-radius: 50px;
+  margin-top: 5px;
+}
+
+#hero-left .partner-btn {
+  font-family: Poppins, sans-serif;
+  font-weight: 600;
+  width: 270px;
+  height: 42px;
+  background-color: rgba(251,88,75,0.85);
+  margin-top: 5px;
+  border: 0px solid rgba(83,83,83,0.55);
 }
 
 #big-btn .job {
