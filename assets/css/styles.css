@@ -364,6 +364,7 @@ a {
 #nav-mid .nav-item {
   width: 165px;
   text-align: left;
+  text-transform: uppercase;
 }
 
 @media (min-width: 768px) {
