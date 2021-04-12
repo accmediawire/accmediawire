@@ -411,3 +411,19 @@ a {
   border-radius: 50px;
 }
 
+.team-heading {
+  font-size: 28px;
+  margin-bottom: 15px;
+  font-weight: 600;
+  text-align: center;
+  font-family: 'Poppins';
+}
+
+@media (min-width: 768px) {
+  .team-heading {
+    font-size: 46px;
+    margin-bottom: 45px;
+    font-weight: 500;
+  }
+}
+
