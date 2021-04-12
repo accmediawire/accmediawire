@@ -421,7 +421,7 @@ a {
 
 @media (min-width: 768px) {
   .team-heading {
-    font-size: 46px;
+    font-size: 36px;
     margin-bottom: 45px;
     font-weight: 500;
   }
@@ -836,5 +836,60 @@ a {
 .ps_easeInOutSine .carousel-item {
   -webkit-transition-timing-function: cubic-bezier(.445,.05,.55,.95);
   transition-timing-function: cubic-bezier(.445,.05,.55,.95);
+}
+
+/* faq */
+
+#faq {
+  margin: 0 auto;
+}
+
+#faq h4 {
+  color: rgba(0,0,0,0.7);
+  font-size: 22px;
+  font-family: 'Poppins';
+  background-color: rgba(87,87,87,0.1);
+  padding: 8px;
+}
+
+#faq .icon-question {
+  color: #1e980a;
+  margin-right: 5px;
+}
+
+#faq div {
+  padding: 0 5px;
+  padding-bottom: 30px;
+}
+
+@media (min-width: 768px) {
+  #faq div {
+    padding: 0 15px;
+    padding-bottom: 30px;
+  }
+}
+
+#faq .tab-content {
+  box-shadow: 10px 5px 5px rgba(223,223,223,0.25);
+  margin: 30px 0;
+  font-family: 'Poppins';
+  font-size: 15px;
+}
+
+#faq .nav-link:focus, .nav-link:hover {
+  text-transform: uppercase;
+  color: #fff;
+}
+
+#faq .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+  color: #fff;
+  text-transform: uppercase;
+  border-radius: 0;
+}
+
+#faq .nav.nav-pills.nav-justified {
+  background-color: rgba(0,0,0,0.85);
+  font-family: 'Poppins';
+  padding: 5px;
 }
 
