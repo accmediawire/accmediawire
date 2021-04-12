@@ -39,7 +39,7 @@
 
 @media (min-width: 768px) {
   #web-hero .div-1 {
-    padding: 115px 0px;
+    padding: 115px 10px;
   }
 }
 
@@ -51,16 +51,14 @@ web-hero .div-2 {
 #web-hero .p-top {
   font-size: 30px;
   font-weight: 700;
-  text-align: center;
   margin: 0px;
-  color: rgba(255,255,255,0.8);
+  color: #ffffff;
 }
 
 #web-hero .p-bot {
-  text-align: center;
-  font-size: 12px;
+  font-size: 11px;
   font-family: 'Poppins';
-  font-weight: 500;
+  font-weight: 400;
   color: rgb(255,255,255);
 }
 
@@ -89,31 +87,26 @@ web-hero .div-2 {
   }
 }
 
-#web-hero .col.with-borders {
-  border: 1px solid rgba(255,255,255,0.65);
-  border-top: 0;
-  border-right: 0;
-  border-left: 0;
-}
-
-@media (min-width: 768px) {
-  #web-hero .col.with-borders {
-    border: 1px solid rgba(255,255,255,0.65);
-    border-bottom: 0;
-    border-top: 0;
-  }
-}
-
 #web-hero .overlay {
-  background-color: rgba(0,0,0,0.5);
+  background-color: rgba(9,6,37,0.65);
 }
 
 #web-hero .div-2 {
   color: #fff;
   max-width: 800px;
   margin: 0 auto;
-  padding: 35px 5px;
-  padding-top: 0px;
+  padding: 10px;
+  padding-bottom: 20px;
+}
+
+@media (min-width: 992px) {
+  #web-hero .div-2 {
+    color: #fff;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0;
+    padding-bottom: 30px;
+  }
 }
 
 #web-hero .col.with-borders-2 {
