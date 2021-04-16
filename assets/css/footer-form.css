@@ -161,9 +161,19 @@
   border: 2px solid #ffffff;
   border-top: 0;
   border-left: 0;
+  border-right: 0;
   border-radius: 0px;
   color: rgb(255,255,255);
   font-family: Poppins, sans-serif;
   font-weight: 500;
+}
+
+@media (min-width: 768px) {
+  #footer-form .form-control {
+    border: 3px solid #ffffff;
+    border-top: 0;
+    border-left: 0;
+    border-radius: 0px;
+  }
 }
 
