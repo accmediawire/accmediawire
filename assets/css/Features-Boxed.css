@@ -72,6 +72,7 @@
 
 .learn-more {
   color: rgba(251,88,75,0.85);
+  text-transform: capitalize;
 }
 
 .btn.btn-primary.feature-btn {

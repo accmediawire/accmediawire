@@ -5,8 +5,8 @@
 .navbar-light .navbar-nav .nav-link {
   font-size: 13px;
   font-family: 'Poppins';
-  font-weight: 500;
-  color: rgba(49,52,55,0.9);
+  font-weight: 600;
+  color: rgba(49,52,55,0.75);
 }
 
 .dropdown-item {
