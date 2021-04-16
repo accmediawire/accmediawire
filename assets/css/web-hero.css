@@ -39,7 +39,7 @@
 
 @media (min-width: 768px) {
   #web-hero .div-1 {
-    padding: 115px 10px;
+    padding: 110px 10px;
   }
 }
 
@@ -88,7 +88,7 @@ web-hero .div-2 {
 }
 
 #web-hero .overlay {
-  background-color: rgba(9,6,37,0.65);
+  background-color: rgba(251,88,75,0.1);
 }
 
 #web-hero .div-2 {
