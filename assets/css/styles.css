@@ -169,7 +169,6 @@ a:hover {
   color: rgba(251,88,75,0.85);
   text-decoration: inherit;
   font-weight: 500;
-  font-size: 15px;
 }
 
 #nav {
@@ -847,7 +846,6 @@ a {
 }
 
 #faq .nav-link:focus, .nav-link:hover {
-  text-transform: uppercase;
   color: #fff;
 }
 
