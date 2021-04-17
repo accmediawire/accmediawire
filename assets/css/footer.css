@@ -1,20 +1,20 @@
 .page-footer {
-  background-color: rgba(198,198,198,0.15);
+  background-color: #000;
   font-family: Poppins, sans-serif;
-  color: rgba(0,0,0,0.7);
-  padding-top: 80px;
+  color: rgba(255,255,255,0.7);
+  padding-top: 50px;
   padding-bottom: 20px;
 }
 
 .page-footer h4 {
-  color: rgba(51,51,51,0.85);
+  color: rgba(255,255,255,0.85);
   font-size: 13px;
   font-weight: 500;
   text-transform: uppercase;
 }
 
 .page-footer p {
-  color: #888;
+  color: rgba(255,255,255,0.85);
   font-size: 11px;
 }
 
@@ -26,7 +26,7 @@
 }
 
 .page-footer .footer-links a {
-  color: #555;
+  color: #ffffff;
   font-size: 11px;
   font-family: 'Poppins';
 }
@@ -34,10 +34,6 @@
 .page-footer .footer-links li {
   margin-bottom: 5px;
   line-height: 1.3;
-}
-
-.page-footer .footer-legal .copyright {
-  margin-right: 60px;
 }
 
 .page-footer .footer-legal .legal-links .item {
@@ -72,7 +68,6 @@
 
 .page-footer .fa.fa-twitter-square {
   font-size: 28px;
-  margin: 0 15px;
 }
 
 .page-footer .fa.fa-facebook-square {
@@ -82,7 +77,6 @@
 
 .page-footer .fa.fa-linkedin-square {
   font-size: 28px;
-  margin: 0 15px;
 }
 
 body {

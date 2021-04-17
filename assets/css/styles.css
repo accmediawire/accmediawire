@@ -3,17 +3,18 @@
 }
 
 .navbar-light .navbar-nav .nav-link {
-  font-size: 13px;
+  font-size: 11px;
   font-family: 'Poppins';
-  font-weight: 600;
+  font-weight: 700;
+  text-transform: uppercase;
   color: rgba(49,52,55,0.75);
 }
 
 .dropdown-item {
   font-family: 'Poppins';
-  font-size: 14px;
+  font-size: 12px;
   text-transform: uppercase;
-  font-weight: 500;
+  font-weight: 600;
   color: rgba(51,51,51,0.7);
 }
 
@@ -132,9 +133,10 @@ iframe {
 }
 
 .btn.btn-primary.text-white {
-  padding: 10px 42px;
+  padding: 10px 30Px;
   border-radius: 0px;
   font-weight: 500;
+  background-color: #000;
 }
 
 #home-cta .h2 {
@@ -244,8 +246,8 @@ a {
 
 .btn-primary:hover {
   color: #fff;
-  background-color: rgba(0,0,0,0.9);
-  border-color: #0c0c0c;
+  background-color: #841fff;
+  border-color: #841fff;
   font-size: 16px;
   font-weight: 600;
 }
@@ -888,10 +890,5 @@ a {
 
 #sticky p {
   font-size: 20px;
-}
-
-/* brands */
-
-img {
 }
 
