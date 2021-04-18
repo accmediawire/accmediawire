@@ -5,9 +5,9 @@
 .navbar-light .navbar-nav .nav-link {
   font-size: 11px;
   font-family: 'Poppins';
-  font-weight: 700;
+  font-weight: 600;
   text-transform: uppercase;
-  color: rgba(49,52,55,0.75);
+  color: #000000;
 }
 
 .dropdown-item {
@@ -178,7 +178,7 @@ a:hover {
 }
 
 #nav {
-  padding: 15px 5px;
+  padding: 5px 15px;
   background-color: #fff;
 }
 
@@ -253,8 +253,6 @@ a {
   color: #fff;
   background-color: #841fff;
   border-color: #841fff;
-  font-size: 16px;
-  font-weight: 600;
 }
 
 .nav-link.active {

@@ -79,6 +79,13 @@
   font-size: 28px;
 }
 
-body {
+.d-inline-block.copyright {
+  margin-right: 0px;
+}
+
+@media (min-width: 576px) {
+  .d-inline-block.copyright {
+    margin-right: 10px;
+  }
 }
 
