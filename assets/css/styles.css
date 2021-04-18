@@ -171,10 +171,15 @@ a:hover {
   color: rgba(251,88,75,0.85);
   text-decoration: inherit;
   font-weight: 500;
+  padding-bottom: 5px;
+  border-bottom-style: groove;
+  border-bottom-width: 1.5px;
+  width: fit-content;
 }
 
 #nav {
-  padding: 0 15px;
+  padding: 15px 5px;
+  background-color: #fff;
 }
 
 /* terms and privacy */
@@ -890,5 +895,19 @@ a {
 
 #sticky p {
   font-size: 20px;
+}
+
+.navbar-light .navbar-toggler-icon {
+  background-image: url("../../assets/img/nav-LINES.png");
+}
+
+.navbar-light .navbar-toggler {
+  color: #ffffff;
+  border-color: #fff;
+}
+
+.navbar-toggler:focus, .navbar-toggler:hover {
+  text-decoration: none;
+  border-color: #333;
 }
 
