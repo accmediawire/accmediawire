@@ -217,7 +217,7 @@ span {
   .dot {
     color: #000;
     margin-left: 5px;
-    font-size: 56px;
+    font-size: 65px;
     font-family: Anton, sans-serif;
   }
 }
@@ -232,7 +232,7 @@ span {
   .question {
     color: #000;
     margin-left: 5px;
-    font-size: 56px;
+    font-size: 65px;
   }
 }
 
@@ -258,7 +258,6 @@ span {
 #acc-design-3 {
   padding: 70px 0;
   font-family: 'Poppins';
-  padding-bottom: 15px;
 }
 
 #acc-design-3 h3 {
@@ -346,20 +345,14 @@ a:hover {
   font-size: 13px;
   padding: 10px 32px;
   border-radius: 50px;
-  font-family: 'Poppins';
+  font-family: 'Josefin Sans';
 }
 
 #cta-small .cta {
-  padding: 25px 10px;
-  background-color: #fb584b;
+  border: 1px rgba(255,255,255,0);
+  background-color: initial;
   font-family: Poppins, sans-serif;
+  padding: 25px 0;
   text-align: left;
-}
-
-@media (min-width: 992px) {
-  #cta-small .cta {
-    padding: 35px;
-    margin: 0 25px;
-  }
 }
 
