@@ -1,0 +1,263 @@
+#hero-1 {
+  background-image: url("../../assets/img/light-bulbs-5488573_1920.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#hero-1 .btn-1 {
+  border: 2px solid;
+  font-family: Poppins, sans-serif;
+  font-weight: 700;
+  width: 270px;
+  height: 42px;
+  background-color: rgba(0,123,255,0);
+  margin-top: 10px;
+}
+
+@media (min-width: 768px) {
+  #hero-1 .btn-1 {
+    margin-top: 0;
+    margin-left: 10px;
+  }
+}
+
+#hero-1 .div-hero {
+  text-align: center;
+  font-size: 18px;
+  color: #fff;
+  font-family: 'Poppins';
+  padding: 105px 0px;
+}
+
+@media (min-width: 768px) {
+  #hero-1 .div-hero {
+    padding: 100px 0;
+    padding-top: 150px;
+  }
+}
+
+#hero-1 .div-2 {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+#hero-1 .p-top {
+  font-size: 30px;
+  font-weight: 700;
+  margin: 0px;
+  color: #ffffff;
+}
+
+#hero-1 .p-bot {
+  font-size: 11px;
+  font-family: 'Poppins';
+  font-weight: 400;
+  color: rgb(255,255,255);
+}
+
+#hero-1 h1 {
+  font-size: 36px;
+  margin-bottom: 15px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+@media (min-width: 768px) {
+  #hero-1 h1 {
+    font-size: 72px;
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+}
+
+#hero-1 .feature-btn {
+  margin-bottom: 8px;
+}
+
+@media (min-width: 768px) {
+  #hero-1 .feature-btn {
+    margin-right: 8px;
+  }
+}
+
+#hero-1 .overlay {
+  background-color: rgba(0,0,0,0.7);
+}
+
+#hero-1 .div-hero-2 {
+  color: #fff;
+  padding-bottom: 20px;
+}
+
+@media (min-width: 992px) {
+  #hero-1 .div-hero-2 {
+    color: #fff;
+    padding-bottom: 30px;
+  }
+}
+
+#hero-1 .div-2 {
+  color: #fff;
+  padding: 25px 10px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+@media (min-width: 992px) {
+  #hero-1 .div-2 {
+    color: #fff;
+    padding-bottom: 30px;
+  }
+}
+
+#hero-1 .div-1 {
+  text-align: center;
+  font-size: 18px;
+  color: #fff;
+  font-family: 'Poppins';
+  padding: 55px 10px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+  #hero-1 .div-1 {
+    padding: 110px 0;
+  }
+}
+
+section {
+  padding: 0;
+}
+
+/* nav */
+
+#mainNav, #mainNav .navbar-brand {
+  font-family: 'Poppins';
+}
+
+#mainNav .navbar-nav > li.nav-item > a.nav-link, #mainNav .navbar-nav > li.nav-item > a.nav-link:focus {
+  font-size: .8rem;
+  font-weight: 600;
+}
+
+.navbar-light .navbar-toggler {
+  color: #9743ff;
+  border-color: #ffffff;
+}
+
+sub {
+  font-size: 20px;
+  color: rgba(0,0,0,0.65);
+  font-weight: 600;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+#acc-design-1 h2 {
+  font-weight: 700;
+  font-size: 36px;
+  color: #000;
+  font-family: 'Poppins';
+}
+
+@media (min-width: 992px) {
+  #acc-design-1 h2 {
+    font-size: 52px;
+    color: #000;
+  }
+}
+
+#acc-design-2 h3 {
+  font-weight: 700;
+  font-size: 36px;
+  color: #000;
+  font-family: 'Poppins';
+}
+
+@media (min-width: 992px) {
+  #acc-design-2 h3 {
+    font-size: 42px;
+    color: #000;
+  }
+}
+
+#acc-design-2 h4 {
+  font-weight: 500;
+  font-size: 26px;
+  color: #000;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+@media (min-width: 992px) {
+  #acc-design-2 h4 {
+    font-size: 28px;
+    color: #000;
+    font-weight: 600;
+  }
+}
+
+span {
+  color: #9743ff;
+}
+
+.dot {
+  color: #000;
+  margin-left: 2px;
+  font-size: 30px;
+  font-family: Anton, sans-serif;
+}
+
+@media (min-width: 992px) {
+  .dot {
+    color: #000;
+    margin-left: 5px;
+    font-size: 65px;
+    font-family: Anton, sans-serif;
+  }
+}
+
+.question {
+  color: #000;
+  margin-left: 2px;
+  font-size: 36px;
+}
+
+@media (min-width: 992px) {
+  .question {
+    color: #000;
+    margin-left: 5px;
+    font-size: 65px;
+  }
+}
+
+.intro {
+  padding-top: 25px;
+  padding-bottom: 0;
+}
+
+#sticky {
+  position: sticky;
+  top: 70px;
+  padding: 25px;
+  font-family: 'Josefin Sans';
+  font-weight: 700;
+}
+
+.form-control:focus {
+  color: #ffffff;
+  background-color: rgba(255,255,255,0);
+  outline: 0;
+}
+
+#acc-design-3 {
+  padding: 70px 0;
+  font-family: 'Poppins';
+}
+
+#acc-design-3 h3 {
+  font-family: 'Poppins';
+  margin-bottom: 25px;
+  font-weight: 500;
+}
+
