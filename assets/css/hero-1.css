@@ -284,7 +284,15 @@ span {
 }
 
 #acc-design-4 div {
-  padding: 10px 5px;
+  padding: 15px 5px;
+  padding-top: 5px;
+}
+
+@media (min-width: 768px) {
+  #acc-design-4 div {
+    padding: 25px 5px;
+    padding-top: 15px;
+  }
 }
 
 #acc-design-4 .fa.fa-pencil-square-o {
