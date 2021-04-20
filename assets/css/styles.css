@@ -402,3 +402,132 @@ a:hover {
   text-align: left;
 }
 
+/* contact-page */
+
+#contact {
+  font-family: Poppins, sans-serif;
+  color: rgb(255,255,255);
+  padding-bottom: 5px;
+  margin-right: 5px;
+  margin-left: 5px;
+  margin-bottom: 10px;
+}
+
+#contact .div-left {
+  padding: 0;
+  padding-top: 30px;
+}
+
+@media (min-width: 992px) {
+  #contact .div-left {
+    padding: 30px;
+    padding-top: 60px;
+  }
+}
+
+#contact h2 {
+  margin: auto;
+  font-weight: 700;
+  font-size: 36px;
+  font-family: 'Poppins';
+}
+
+@media (min-width: 768px) {
+  #contact h2 {
+    font-size: 62px;
+  }
+}
+
+#contact .contact-btn {
+  font-size: 14px;
+  padding: 16px 22px;
+  border: 3px #fff;
+  padding-bottom: 16px;
+  background-color: #9743ff;
+}
+
+#contact a {
+  color: rgb(255,255,255);
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#contact p {
+  font-size: 14px;
+}
+
+#contact .form {
+  border-radius: 7px;
+  max-width: 460px;
+  padding: 10px;
+  background-color: #333333;
+  padding: 20px;
+  margin: 0 5px;
+}
+
+label {
+  color: #ffffff;
+  font-size: 15px;
+}
+
+#contact .form-control {
+  border: 2px solid #ffffff;
+  border-top: 0;
+  border-right: 0;
+  border-left: 0;
+  border-radius: 0px;
+  background-color: rgba(255,255,255,0);
+  color: #fff;
+  font-size: 17px;
+}
+
+.btn.btn-primary.btn-block.form-btn {
+  border: 3px solid #ffffff;
+  border-radius: 5px;
+  background-color: rgba(251,88,75,0.35);
+  color: #ffffff;
+  font-size: 15px;
+  margin-top: 35px;
+  font-weight: bold;
+  padding: 10px 30px;
+}
+
+/* contact-faq */
+
+#contact-faq {
+  font-family: Poppins, sans-serif;
+  padding: 50px 10px;
+}
+
+#contact-faq .faq-link {
+  margin: 0 auto;
+}
+
+@media (min-width: 576px) {
+  #contact-faq .faq-link {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+}
+
+#contact-faq h3 {
+  padding: 0px;
+  font-size: 32px;
+  color: #333;
+}
+
+#cta-small {
+  margin: 5px;
+  padding: 15px;
+  background-color: #9743ff;
+}
+
+@media (min-width: 768px) {
+  #cta-small {
+    margin: 35px;
+    padding: 35px;
+    padding-left: 100px;
+    background-color: #9743ff;
+  }
+}
+
