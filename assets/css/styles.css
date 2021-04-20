@@ -27,13 +27,13 @@
   font-size: 18px;
   color: #fff;
   font-family: 'Poppins';
-  padding: 105px 0px;
+  padding: 110px 0px;
 }
 
 @media (min-width: 768px) {
   #hero-1 .div-hero {
-    padding: 100px 0;
-    padding-top: 150px;
+    padding: 80px 0;
+    padding-top: 125px;
   }
 }
 
@@ -93,7 +93,8 @@
 @media (min-width: 992px) {
   #hero-1 .div-hero-2 {
     color: #fff;
-    padding-bottom: 30px;
+    padding-bottom: 10px;
+    padding-right: 50px;
   }
 }
 
@@ -211,11 +212,11 @@ sub {
   font-size: 26px;
   color: #333;
   font-family: 'Poppins';
-  border-color: #fb584b;
+  border-color: #000000;
   text-transform: capitalize;
   padding-bottom: 5px;
   border-bottom-style: groove;
-  border-bottom-width: 2px;
+  border-bottom-width: 1px;
   width: fit-content;
 }
 
@@ -272,11 +273,14 @@ span {
   font-family: 'Josefin Sans';
   font-weight: 700;
   margin: 0;
+  background-color: #9743ff;
+  color: #fff;
 }
 
 @media (min-width: 768px) {
   #sticky {
-    margin: 0 25px;
+    margin-left: 55px;
+    border-radius: 25px;
   }
 }
 
@@ -299,7 +303,7 @@ span {
 }
 
 #acc-design-3 {
-  padding: 70px 0;
+  padding: 50px 0;
   font-family: 'Poppins';
 }
 
@@ -333,7 +337,6 @@ span {
 }
 
 #acc-design-4 {
-  padding: 30px 0;
 }
 
 #acc-design-4 p {
