@@ -268,15 +268,34 @@ span {
 #sticky {
   position: sticky;
   top: 70px;
-  padding: 25px;
+  padding: 15px;
   font-family: 'Josefin Sans';
   font-weight: 700;
+  margin: 0;
+}
+
+@media (min-width: 768px) {
+  #sticky {
+    margin: 0 25px;
+  }
 }
 
 .form-control:focus {
   color: #ffffff;
   background-color: rgba(255,255,255,0);
   outline: 0;
+}
+
+/* acc-design-3 */
+
+#acc-design-3 .shadow {
+  padding: 5px;
+}
+
+@media (min-width: 768px) {
+  #acc-design-3 .shadow {
+    padding: 15px;
+  }
 }
 
 #acc-design-3 {
