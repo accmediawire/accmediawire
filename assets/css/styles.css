@@ -176,7 +176,6 @@ sub {
   font-size: 20px;
   color: rgba(0,0,0,0.65);
   font-weight: 600;
-  font-family: 'Josefin Sans', sans-serif;
 }
 
 #acc-design-1 h2 {
@@ -208,7 +207,7 @@ sub {
 }
 
 #acc-design-2 h4 {
-  font-weight: 500;
+  font-weight: 300;
   font-size: 26px;
   color: #333;
   font-family: 'Poppins';
@@ -222,8 +221,7 @@ sub {
 
 @media (min-width: 992px) {
   #acc-design-2 h4 {
-    font-size: 26px;
-    font-weight: 600;
+    font-size: 25px;
   }
 }
 
@@ -273,7 +271,7 @@ span {
   font-family: 'Josefin Sans';
   font-weight: 700;
   margin: 0;
-  background-color: #fb584b;
+  background-color: #9743ff;
   color: #fff;
 }
 
