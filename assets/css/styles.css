@@ -729,3 +729,40 @@ label {
   }
 }
 
+/* terms and privacy */
+
+#main {
+  padding-top: 70px;
+  font-family: 'Poppins';
+}
+
+#main h2 {
+  padding: 25px 0;
+  text-align: center;
+  font-size: 42px;
+  font-family: 'Poppins';
+}
+
+@media (min-width: 768px) {
+  #main h2 {
+    font-size: 62px;
+    font-weight: 400;
+  }
+}
+
+#main .intro {
+  font-family: 'Poppins';
+  padding: 50px 0;
+}
+
+#main p {
+  padding: 25px 0;
+  color: #565656;
+}
+
+h4 {
+  font-size: 24px;
+  font-weight: 500;
+  font-family: 'Poppins';
+}
+
