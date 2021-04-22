@@ -1,0 +1,203 @@
+#services-hero {
+  background-image: url("pexels-daniel-putzer-633409.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 5px;
+  margin-top: 59px;
+}
+
+#services-hero .btn-1 {
+  border: 2px solid;
+  font-family: Poppins, sans-serif;
+  font-weight: 700;
+  width: 270px;
+  height: 42px;
+  background-color: rgba(0,123,255,0);
+  margin-top: 10px;
+}
+
+@media (min-width: 768px) {
+  #services-hero .btn-1 {
+    margin-top: 0;
+    margin-left: 10px;
+  }
+}
+
+#services-hero .div-hero {
+  text-align: center;
+  font-size: 18px;
+  color: #fff;
+  font-family: 'Poppins';
+  padding: 25px 0px;
+}
+
+@media (min-width: 768px) {
+  #services-hero .div-hero {
+    padding: 110px 0;
+  }
+}
+
+#services-hero .div-2 {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+#services-hero .p-top {
+  font-size: 30px;
+  font-weight: 700;
+  margin: 0px;
+  color: #ffffff;
+}
+
+#services-hero .p-bot {
+  font-size: 11px;
+  font-family: 'Poppins';
+  font-weight: 400;
+  color: rgb(255,255,255);
+}
+
+#services-hero h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+@media (min-width: 768px) {
+  #services-hero h1 {
+    font-size: 62px;
+    font-weight: 600;
+    margin-bottom: 15px;
+  }
+}
+
+#services-hero .feature-btn {
+  margin-bottom: 8px;
+  text-transform: capitalize;
+}
+
+@media (min-width: 768px) {
+  #services-hero .feature-btn {
+    margin-right: 8px;
+  }
+}
+
+#services-hero .overlay {
+  background-color: rgba(0,0,0,0.7);
+}
+
+#services-hero .div-hero-2 {
+  color: #fff;
+  padding-bottom: 20px;
+}
+
+@media (min-width: 992px) {
+  #services-hero .div-hero-2 {
+    color: #fff;
+    padding-bottom: 30px;
+  }
+}
+
+#services-hero .div-2 {
+  color: #fff;
+  padding: 25px 10px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+@media (min-width: 992px) {
+  #services-hero .div-2 {
+    color: #fff;
+    padding-bottom: 30px;
+  }
+}
+
+#services-hero .div-1 {
+  text-align: center;
+  font-size: 18px;
+  color: #fff;
+  font-family: 'Poppins';
+  padding: 55px 10px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+  #services-hero .div-1 {
+    padding: 110px 0;
+  }
+}
+
+/* features-grid */
+
+#features-grid {
+  font-family: 'Poppins';
+  padding: 50px 0;
+}
+
+#features-plan {
+  padding: 80px 0;
+}
+
+#features-plan .item .box {
+  text-align: center;
+  padding: 10px 20px;
+  background-color: #fff;
+  margin-bottom: 30px;
+  font-family: 'Poppins';
+}
+
+#features-plan .item .icon {
+  font-size: 80px;
+  color: rgba(251,88,75,0.85);
+  margin-top: 20px;
+  margin-bottom: 35px;
+}
+
+#features-plan .item .name {
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 8px;
+  margin-top: 0;
+  color: inherit;
+  text-transform: uppercase;
+}
+
+#features-plan .item .description {
+  font-size: 15px;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
+.left {
+  padding: 25px;
+  padding-left: 0;
+}
+
+#features-grid .name {
+  font-size: 34px;
+  padding-bottom: 16px;
+  font-weight: 700;
+}
+
+@media (min-width: 992px) {
+  #features-grid .name {
+    font-size: 54px;
+    font-weight: 700;
+    line-height: 70px;
+  }
+}
+
+.btn.btn-primary.border.rounded-0.feature-btn {
+  width: 175px;
+  font-size: 14px;
+  height: 42px;
+}
+
+#features-mid {
+  padding: 50px 0;
+  text-align: center;
+  font-family: 'Poppins';
+}
+
