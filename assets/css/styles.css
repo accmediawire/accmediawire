@@ -1,8 +1,5 @@
 #hero-1 {
-  background-image: url("../../assets/img/light-bulbs-5488573_1920.jpg");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
+  background: url("../../assets/img/brooke-cagle--uHVRvDr7pg-unsplash.jpg") center / cover no-repeat;
 }
 
 #hero-1 .btn-1 {
@@ -32,7 +29,7 @@
 
 @media (min-width: 768px) {
   #hero-1 .div-hero {
-    padding: 120px 0;
+    padding: 130px 0;
     padding-top: 150px;
   }
 }
@@ -83,7 +80,7 @@
 }
 
 #hero-1 .overlay {
-  background-color: rgba(0,0,0,0.7);
+  background-color: rgba(16,0,50,0.5);
 }
 
 #hero-1 .div-hero-2 {
@@ -149,8 +146,9 @@ section {
 
 .brands a img {
   display: inline-block;
-  margin: 10px 20px;
+  margin: 10px 40px;
   vertical-align: middle;
+  margin-left: 0;
 }
 
 .brands img, svg {
@@ -195,11 +193,10 @@ sub {
 }
 
 #acc-design-2 h3 {
-  font-weight: 500;
-  font-size: 34px;
+  font-size: 42px;
   color: #fff;
   font-family: 'Poppins';
-  line-height: 50px;
+  line-height: 52px;
 }
 
 #acc-design-2 h4 {
@@ -260,25 +257,24 @@ span {
 #sticky {
   position: sticky;
   top: 70px;
-  font-weight: 700;
   margin: 0;
-  color: #000000;
-  background-color: #333333;
-  padding: 10px 20px;
-  background: rgb(151,67,255);
-  background: linear-gradient(90deg, rgba(151,67,255,1) 0%, rgba(255,255,255,1) 100%);
+  color: #fff;
+  font-size: 18px;
+  font-weight: 100;
+  padding: 10px;
+  background: #000000;
 }
 
 @media (min-width: 768px) {
   #sticky {
-    margin-left: 55px;
+    margin-left: 85px;
     border-radius: 5px;
   }
 }
 
 #sticky .form-control:focus {
   color: #000000;
-  background-color: rgba(255,255,255,0);
+  background-color: #ffffff;
   outline: 0;
 }
 
@@ -383,7 +379,7 @@ a:hover {
   font-size: 13px;
   padding: 10px 32px;
   border-radius: 50px;
-  font-family: 'Josefin Sans';
+  font-family: 'Poppins';
 }
 
 #cta-small .cta {
@@ -607,12 +603,12 @@ label {
 /* /* careers */
 
 #hero-left {
-  padding: 80px 0;
+  padding: 50px 0;
 }
 
 @media (min-width: 768px) {
   #hero-left {
-    padding: 70px 0;
+    padding: 20px 0;
     margin-top: 0;
   }
 }
@@ -887,10 +883,6 @@ h4 {
   width: fit-content;
   font-size: 15px;
   font-weight: 500;
-}
-
-.form-group {
-  margin-bottom: 0;
 }
 
 #mainNav2 {
