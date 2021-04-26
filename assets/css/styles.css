@@ -1,5 +1,12 @@
 #hero-1 {
-  background: url("../../assets/img/brooke-cagle--uHVRvDr7pg-unsplash.jpg") center / cover no-repeat;
+  background: url("../../assets/img/best-seo-agency-usa-hero-img.jpg") center / cover no-repeat;
+}
+
+@media (min-width: 992px) {
+  #hero-1 {
+    background: url("../../assets/img/best-seo-agency-usa-hero-img.jpg") center / cover no-repeat;
+    height: 100vh;
+  }
 }
 
 #hero-1 .btn-1 {
@@ -30,7 +37,7 @@
 @media (min-width: 768px) {
   #hero-1 .div-hero {
     padding: 130px 0;
-    padding-top: 150px;
+    padding-top: 140px;
   }
 }
 
@@ -69,8 +76,9 @@
 }
 
 #hero-1 .feature-btn {
-  margin-bottom: 8px;
-  font-weight: 400;
+  margin-right: 8px;
+  font-weight: 500;
+  margin-bottom: 5px;
 }
 
 @media (min-width: 768px) {
@@ -80,7 +88,14 @@
 }
 
 #hero-1 .overlay {
-  background-color: rgba(16,0,50,0.5);
+  background-color: rgba(23,23,23,0.5);
+  height: 100%;
+}
+
+@media (min-width: 992px) {
+  #hero-1 .overlay {
+    height: 100vh;
+  }
 }
 
 #hero-1 .div-hero-2 {
@@ -179,7 +194,7 @@ sub {
 }
 
 #acc-design-1 h2 {
-  font-weight: 700;
+  font-weight: 500;
   font-size: 36px;
   color: #000;
   font-family: 'Poppins';
@@ -188,21 +203,21 @@ sub {
 @media (min-width: 992px) {
   #acc-design-1 h2 {
     font-size: 52px;
-    color: #000;
+    color: #000000;
   }
 }
 
 #acc-design-2 h3 {
-  font-size: 42px;
+  font-size: 35px;
   color: #fff;
   font-family: 'Poppins';
   line-height: 52px;
 }
 
 #acc-design-2 h4 {
-  font-weight: 300;
+  font-weight: 400;
   font-size: 26px;
-  color: #333;
+  color: #fb584b;
   font-family: 'Poppins';
   border-color: #000000;
   text-transform: capitalize;
@@ -216,7 +231,7 @@ sub {
 }
 
 span {
-  color: #9743ff;
+  color: #fb584b;
 }
 
 .dot {
@@ -757,13 +772,15 @@ h4 {
 }
 
 #purposal-form .btn {
-  margin-left: 0;
-  margin-top: 0;
-  font-size: 15px;
-  font-weight: 600;
-  font-family: Poppins, sans-serif;
+  border-color: #9743ff;
+  font-weight: 500;
+  border: 1px solid #ffffff;
+  text-align: center;
+  font-size: 14px;
+  margin-bottom: 10px;
   height: 40px;
-  border-color: #fb584b;
+  border-radius: 0;
+  font-family: 'Poppins';
 }
 
 /* video-and-stats */
@@ -793,15 +810,16 @@ h4 {
 /* features-boxed */
 
 .features-boxed h3 {
-  font-weight: 700;
+  font-weight: 600;
   font-size: 34px;
+  text-align: center;
   color: #000;
   font-family: 'Poppins';
 }
 
 @media (min-width: 992px) {
   .features-boxed h3 {
-    font-weight: 700;
+    font-weight: 600;
     font-size: 50px;
   }
 }
