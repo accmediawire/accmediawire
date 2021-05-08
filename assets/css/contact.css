@@ -1,3 +1,39 @@
+/* contact-page */
+
+#contact .div-left {
+  padding: 10px;
+  padding-top: 30px;
+}
+
+@media (min-width: 992px) {
+  #contact .div-left {
+    padding: 30px;
+    padding-top: 100px;
+  }
+}
+
+#contact h2 {
+  font-weight: 700;
+  font-size: 36px;
+  font-family: 'Poppins';
+  color: #fff;
+}
+
+@media (min-width: 768px) {
+  #contact h2 {
+    font-size: 62px;
+  }
+}
+
+#contact .contact-btn {
+  font-size: 14px;
+  padding: 16px 22px;
+  border: 3px #fff;
+  padding-bottom: 16px;
+  background-color: #9743ff;
+  margin: 35px 0;
+}
+
 #contact a {
   color: rgb(255,255,255);
   font-size: 20px;
@@ -8,12 +44,40 @@
   font-size: 14px;
 }
 
-/* contact-faq */
+#contact .form {
+  border-radius: 0px;
+  max-width: 460px;
+  padding: 10px;
+  background-color: #333333;
+  padding: 20px;
+  margin: 0 auto;
+}
 
-#contact-faq h3 {
-  padding: 0px;
-  font-size: 32px;
-  color: #333;
+label {
+  color: #ffffff;
+  font-size: 15px;
+}
+
+#contact .form-control {
+  border: 2px solid #ffffff;
+  border-top: 0;
+  border-right: 0;
+  border-left: 0;
+  border-radius: 0px;
+  background-color: rgba(255,255,255,0);
+  color: #fff;
+  font-size: 17px;
+}
+
+.btn.btn-primary.btn-block.form-btn {
+  border: 3px solid #ffffff;
+  border-radius: 5px;
+  background-color: rgba(251,88,75,0.35);
+  color: #ffffff;
+  font-size: 15px;
+  margin-top: 35px;
+  font-weight: bold;
+  padding: 10px 30px;
 }
 
 /* free-quote */
@@ -24,7 +88,7 @@
   margin-right: 5px;
   margin-left: 5px;
   padding: 0px 10px;
-  background-image: url("../../assets/img/best-seo-agency-usa-hero-img.jpg");
+  background-image: url("best-seo-agency-usa-hero-img.jpg");
   background-repeat: repeat-x;
   background-position: center;
   background-size: cover;
@@ -259,5 +323,39 @@
     margin-right: 20px;
     margin-bottom: 0;
   }
+}
+
+#free-quote img {
+  margin-top: 12px;
+  margin-right: 20px;
+}
+
+#quote-main img {
+  margin-top: 12px;
+  margin-right: 20px;
+}
+
+.masthead p {
+  font-size: 19px;
+}
+
+.content-link {
+  color: #9743ff;
+  font-family: 'Montserrat';
+  font-weight: bold;
+}
+
+@media (min-width:768px) {
+  section {
+    padding: 150px 0;
+  }
+}
+
+.brands img {
+  margin: 25px;
+}
+
+#hero-left {
+  padding: 0;
 }
 
