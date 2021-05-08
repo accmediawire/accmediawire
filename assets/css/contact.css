@@ -345,12 +345,6 @@ label {
   font-weight: bold;
 }
 
-@media (min-width:768px) {
-  section {
-    padding: 150px 0;
-  }
-}
-
 .brands img {
   margin: 25px;
 }
