@@ -115,7 +115,7 @@
 
 #hero-1 .div-hero {
   text-align: center;
-  font-size: 24px;
+  font-size: 18px;
   color: #fff;
   font-family: 'Poppins';
   padding: 100px 0px;
@@ -123,9 +123,9 @@
 
 @media (min-width: 768px) {
   #hero-1 .div-hero {
-    padding: 120px 0;
-    padding-top: 140px;
-    font-size: 18px;
+    padding: 90px 0;
+    padding-top: 120px;
+    font-size: 24px;
   }
 }
 
